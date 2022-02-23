@@ -330,11 +330,13 @@ nav .navigation a.gold:hover {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 1rem;
     margin-top: 50px;
+    
 }
 
 #members .mem-box .profile {
     background: whitesmoke;
     padding: 30px 10px;
+    border-radius: 20px;
 }
 
 .links {
@@ -346,6 +348,7 @@ nav .navigation a.gold:hover {
     border: 1px solid rgb(21 , 21, 100);
     cursor: pointer;
     transition: 0.3s ease;
+    border-radius: 8px;
 }
 
 .links i:hover {
