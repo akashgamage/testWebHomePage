@@ -204,13 +204,13 @@ nav .navigation a.gold:hover {
 
 /* contents */
 #contents {
-    padding: 8vw 8vw 8vw 8vw;
+    padding: 8vw 8vw 0 8vw;
     text-align: center;
 }
 
 #contents .con-box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
     grid-gap: 1rem;
     margin-top: 50px;
 }
