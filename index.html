@@ -20,22 +20,68 @@
 <body>
 
     <!-- Navigation -->
-    <nav>
-        <img src="images/Logo2.svg" alt="Edu for you">
-        <div class="navigation">
-            <ul>
-                <i id="menu-close" class="fa-solid fa-xmark"></i>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contents</a></li>
-                <li><a href="#">Contact</a></li>
+    <header>
 
-                <!-- <div class="button"><a class="gold" href="#joinwithus">Join With Us</a></div> -->
+        <div class="container">
+            <input type="checkbox" name="" id="check">
 
-            </ul>
-            <img id="menu" src="images/bars-solid.svg" alt="menu">
+            <img src="images/Logo2.svg" alt="">
+
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="nav-link" style="--i: .85s">
+                            <a href="#">Contents<i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Novels</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Short Stories</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Magazines</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Languages</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">O/L Past Papers</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">A/L Past Papers</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="log-sign" style="--i: 1.8s">
+                    <a href="#" class="btn transparent">Sign in</a>
+                </div>
+            </div>
+
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
         </div>
-    </nav>
+
+    </header>
 
     <!-- Home -->
 
@@ -197,12 +243,20 @@
     <!-- Profiles -->
 
     <section id="members">
-        <h1>Group Members</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, doloribus?</p>
+        <h2>Our Team Members</h2>
         <div class="mem-box">
 
             <div class="profile">
-                <img src="images/Akash1.png" alt="akash">
+                <img src="images/Akash1.png" alt="">
+                <h6>N S Anjana</h6>
+                <div class="links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/Akash1.png" alt="">
                 <h6>K G B Akash</h6>
                 <div class="links">
                     <a href="#"><i class="fab fa-github"></i></a>
@@ -211,8 +265,8 @@
             </div>
 
             <div class="profile">
-                <img src="images/Akash1.png" alt="akash">
-                <h6>K G B Akash</h6>
+                <img src="images/Akash1.png" alt="">
+                <h6>O H K V M Welagedara</h6>
                 <div class="links">
                     <a href="#"><i class="fab fa-github"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -220,8 +274,8 @@
             </div>
 
             <div class="profile">
-                <img src="images/Akash1.png" alt="akash">
-                <h6>K G B Akash</h6>
+                <img src="images/Akash1.png" alt="">
+                <h6>M G V N Jayawickrama</h6>
                 <div class="links">
                     <a href="#"><i class="fab fa-github"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -229,17 +283,8 @@
             </div>
 
             <div class="profile">
-                <img src="images/Akash1.png" alt="akash">
-                <h6>K G B Akash</h6>
-                <div class="links">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-
-            <div class="profile">
-                <img src="images/Akash1.png" alt="akash">
-                <h6>K G B Akash</h6>
+                <img src="images/Akash1.png" alt="">
+                <h6>D Y P V Mendis</h6>
                 <div class="links">
                     <a href="#"><i class="fab fa-github"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -250,6 +295,24 @@
     </section>
 
     <footer>
+
+        <div class="col">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Illum quos id ducimus repudiandae
+                repellendus
+                ullam modi nulla velit. <br> Nisi, aliquam!</p>
+        </div>
+
+        <div class="col">
+            <h3>Edu for You</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contents</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
         <div class="col">
             <h3>Newsletter</h3>
             <p>You can trust us. we only send promo offers, </p>
@@ -259,9 +322,11 @@
             </div>
         </div>
 
+
+
         <div class="copyrights">
-            <div class="contact">
-                <a href="#contact"><i class="fa-solid fa-address-card"></i> Contact Us</a>
+            <div class="logo">
+                <img src="images/Logo.svg" alt="">
             </div>
             <p><i class="fa-solid fa-code"></i> Copyrights @2022 All rights reserved | This template is made by Group
                 no: <i class="fa-solid fa-code"></i> </p>
